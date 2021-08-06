@@ -1359,10 +1359,10 @@ input, select, textarea {
 				/* here's where you change the nav blocks */
 				#header nav ul li a {
 					display: block;
-					min-width: 4.125rem;
+					min-width: 5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
+					padding: 0 0.9rem 0 0.9rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
@@ -1422,6 +1422,8 @@ input, select, textarea {
 				opacity: 0;
 			}
 
+/* here are responsive sizes I don't care about */			
+/*
 		@media screen and (max-width: 980px) {
 
 			#header .content p br {
@@ -1460,8 +1462,10 @@ input, select, textarea {
 			}
 
 		}
+*/
 
-		@media screen and (max-width: 480px) {
+/* here you can define at what screen width the nav layout changes */
+		@media screen and (max-width: 1000px) {
 
 			#header {
 				padding: 1.5rem 0;
@@ -1476,7 +1480,7 @@ input, select, textarea {
 					-webkit-flex-direction: column;
 					-ms-flex-direction: column;
 					flex-direction: column;
-					min-width: 10rem;
+					min-width: 5rem;
 					max-width: 100%;
 				}
 
