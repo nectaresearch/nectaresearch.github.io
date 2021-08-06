@@ -1355,10 +1355,11 @@ input, select, textarea {
 				#header nav ul li:first-child {
 					border-left: 0;
 				}
-
+				
+				/* here's where you change the nav blocks */
 				#header nav ul li a {
 					display: block;
-					min-width: 7.5rem;
+					min-width: 4.125rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
